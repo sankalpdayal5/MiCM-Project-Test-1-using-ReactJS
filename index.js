@@ -9,8 +9,8 @@ class App extends Component {
       items: [],
       isLoaded: false,
       displayTooltip: false,
-      heading: 'Users',
 
+      heading: 'Users',
       street: 'Street: ',
       suite: 'Suite: ',
       city: 'City: ',
