@@ -1,0 +1,80 @@
+body {
+	font-family: sans-serif;
+}
+
+/* Contains entire data */
+.users {
+	font-weight: bold;
+	max-height: 150px;
+	border: 1px solid black;
+	overflow-y: scroll;
+	margin-top: 0px;
+	margin-bottom: 0px;
+  padding: 10px 0px 60px 0px;
+}
+
+/* Distinct elements in the given data */
+.names {
+	list-style-type: none;
+	margin-left: 10px;
+	margin-bottom: 5px;
+}
+
+/* Names */
+.name {
+	font-size: 16px;
+	padding: 2px;
+	white-space: pre-line;
+}
+
+.name:hover {
+	background-color: rgb(236, 236, 236);
+}
+
+/* Username */
+.username {
+	float: right;
+	font-weight: normal;
+	font-size: 14px;
+	margin-right: 5px;
+	color: gray;
+}
+
+/* Tooltip Position */
+.tooltip {
+	position: relative;
+}
+
+/* Trigger for tooltip */
+.tooltip-trigger {
+	display: inline-block;
+	text-decoration: gray dashed underline;
+}
+
+/* Tooltip Box */
+.tooltip-bubble {
+	width: max-content;
+	position: absolute;
+	z-index: 10;
+}
+
+/* Tooltip appearing on the right */
+.tooltip-right {
+	top: 200%;
+	left: 100%;
+	margin-left: 9px;
+	transform: translateY(-50%);
+	border: 1px solid black;
+}
+
+/* Tooltip message content */
+.tooltip-message {
+	font-weight: normal;
+	background: white;
+	border-radius: 3px;
+	color: black;
+	font-size: 0.75rem;
+	line-height: 1.4;
+	padding: 0.75em;
+	z-index: 1;
+}
